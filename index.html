@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Niranjan Shankar N | Portfolio</title>
+  <meta name="description" content="Portfolio of Niranjan Shankar N, first-year student at Bannari Amman Institute of Technology." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="#home" class="logo">My first project</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <p class="hero-hello">Hi, I'm</p>
+        <h1 class="hero-name">Niranjan Shankar N</h1>
+
+        <p class="hero-role">I am a <span id="typed" class="typed"></span><span class="cursor">|</span></p>
+
+        <p class="hero-tagline">Turning curiosity into code, one idea at a time.</p>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Contact me</a>
+          <a href="#education" class="btn btn-outline">My education</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About me</h2>
+        <p class="about-text">
+          I'm a first-year student at Bannari Amman Institute of Technology.
+          I love learning new things, building small projects and improving a little every day.
+          This website is my first step in showing what I can do.It took 06-days to create the web-site
+        </p>
+      </div>
+    </section>
+
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-badge">Now</span>
+            <h3>Bannari Amman Institute of Technology</h3>
+            <p>Currently studying - 1st year</p>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-badge">Completed</span>
+            <h3>National Model Matriculation Higher Secondary School</h3>
+            <p>12th grade</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-note">My first projects will appear here. Copy a card below to add each new one.</p>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Portfolio Website</h3>
+            <p>The website you are looking at, built with HTML, CSS and JavaScript.</p>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact-box">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-note">Want to talk? Give me a call.</p>
+        <a href="tel:+918072826910" class="btn btn-primary contact-btn">8072826910</a>
+      </div>
+    </section>
+
+  </main>
+
+ 
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Niranjan Shankar N. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
